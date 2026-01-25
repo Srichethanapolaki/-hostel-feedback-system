@@ -14,6 +14,4 @@ A web-based system for collecting and managing student feedback on hostel facili
 4. Start the server: `npm start`
 5. Open `frontend/index.html` in your browser
 
-**Admin credentials:**  
-- Username: `admin`  
-- Password: `admin123`
+
