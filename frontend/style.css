@@ -1,0 +1,9 @@
+body { font-family: Arial; padding: 20px; }
+h1, h2 { text-align: center; }
+form { max-width: 400px; margin: auto; }
+input { width: 100%; margin: 5px 0; padding: 8px; }
+button { padding: 8px 12px; margin-top: 10px; }
+table { width: 90%; margin: 20px auto; border-collapse: collapse; }
+th, td { border: 1px solid #333; padding: 8px; text-align: center; }
+.links { text-align: center; margin-top: 20px; }
+.links a { margin: 10px; display: inline-block; padding: 8px 12px; background: #2a9df4; color: white; text-decoration: none; border-radius: 5px; }
