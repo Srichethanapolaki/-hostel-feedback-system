@@ -103,11 +103,20 @@ Email: admin@hostel.com
 Open admin.html to manage complaints
 
 📸 Screenshots
-🔐 Login Page
+## 📸 Screenshots
 
-👩‍🎓 Student Dashboard
+### 🔐 Login Page
+![Login Page](images/login.png)
 
-🧑‍💼 Admin Dashboard
+### 📝 Register Page
+![Register Page](images/register.png)
+
+### 👩‍🎓 Student Dashboard
+![Student Dashboard](images/student-dashboard.png)
+
+### 🧑‍💼 Admin Dashboard
+![Admin Dashboard](images/admin-dashboard.png)
+
 
 🔮 Future Enhancements
 Backend integration (Node.js / Django)
