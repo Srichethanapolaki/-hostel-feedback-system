@@ -119,6 +119,7 @@ Open admin.html to manage complaints
 
 
 🔮 Future Enhancements
+
 Backend integration (Node.js / Django)
 
 Database support (MongoDB / MySQL)
@@ -131,7 +132,10 @@ Mobile application version
 
 Secure authentication using JWT
 
+
+
 🎓 Academic Relevance
+
 This project demonstrates:
 
 Real-world problem solving
@@ -142,21 +146,12 @@ Structured data handling
 
 Role-based system architecture
 
-Scalable and extensible design
+Scalable and extensible design.
 
-Suitable for:
 
-Internship evaluations
-
-Mini / major project submissions
-
-Portfolio showcase
-
-Technical interviews
 
 👤 Author
-Chethana
-B.Tech – Computer Science
+Polaki SriChethana
 GitHub: https://github.com/Srichethanapolaki
 
 `npm start`
