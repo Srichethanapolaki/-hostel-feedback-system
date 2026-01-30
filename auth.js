@@ -1,3 +1,15 @@
+
+let users = JSON.parse(localStorage.getItem("users")) || [];
+
+// Auto-create admin if not exists
+if (!users.find(u => u.email === "admin@hostel.com")) {
+  users.push({
+    name: "Admin",
+    email: "admin@hostel.com",
+    password: "admin123"
+  });
+  localStorage.setItem("users", JSON.stringify(users));
+}
 let users = JSON.parse(localStorage.getItem("users")) || [];
 
 function login() {
