@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student | Hostel Feedback</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <h3>Hostel Feedback</h3>
+  <button class="logoutBtn" onclick="logout()">Logout</button>
+</div>
+
+<div class="container">
+
+  <div class="cards">
+    <div class="card" onclick="openPopup('Food')">🍽️ Food</div>
+    <div class="card" onclick="openPopup('Facilities')">🏠 Facilities</div>
+    <div class="card" onclick="openPopup('Cleaning')">🧹 Cleaning</div>
+    <div class="card" onclick="openPopup('Internet')">🌐 Internet</div>
+  </div>
+
+  <h3>My Feedback</h3>
+  <div id="list"></div>
+</div>
+
+<!-- POPUP -->
+<div class="overlay" id="overlay" onclick="closePopup()"></div>
+
+<div class="popup" id="popup">
+  <h3 id="popupTitle"></h3>
+
+  <div id="foodExtra" style="display:none;">
+    <select id="foodDay">
+      <option value="">Day</option>
+      <option>Monday</option><option>Tuesday</option><option>Wednesday</option>
+      <option>Thursday</option><option>Friday</option><option>Saturday</option><option>Sunday</option>
+    </select>
+    <select id="foodSession">
+      <option value="">Session</option>
+      <option>Breakfast</option><option>Lunch</option><option>Dinner</option>
+    </select>
+  </div>
+
+  <div class="rating">
+    <label><input type="radio" name="rating" value="Good">😊 Good</label>
+    <label><input type="radio" name="rating" value="Average">😐 Avg</label>
+    <label><input type="radio" name="rating" value="Bad">😡 Bad</label>
+  </div>
+
+  <textarea id="popupText" placeholder="Write feedback..."></textarea>
+  <button onclick="submitFeedback()">Submit</button>
+</div>
+
+<script src="auth.js"></script>
+<script src="student.js"></script>
+</body>
+</html>

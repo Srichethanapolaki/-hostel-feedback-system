@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Dashboard | Hostel Feedback</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <h3>Admin Dashboard </h3>
+  <button class="logoutBtn" onclick="logout()">Logout</button>
+</div>
+
+<div class="container">
+
+  <!-- Summary cards -->
+  <div class="cards">
+    <div class="card">
+      <h4>Total</h4>
+      <p id="totalCount">0</p>
+    </div>
+    <div class="card">
+      <h4>Pending</h4>
+      <p id="pendingCount">0</p>
+    </div>
+    <div class="card">
+      <h4>Resolved</h4>
+      <p id="resolvedCount">0</p>
+    </div>
+  </div>
+
+  <h3 style="margin-top:40px;">All Complaints</h3>
+  <div id="adminList"></div>
+
+</div>
+
+<script src="auth.js"></script>
+<script src="admin.js"></script>
+</body>
+</html>
